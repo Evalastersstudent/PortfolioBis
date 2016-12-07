@@ -69,6 +69,31 @@ footer p {
 
 
 /*-----Index-----*/
+.rslides {
+      list-style: none;
+      overflow: hidden;
+      width: 75%;
+      margin: 0% auto;
+}
+
+.rslides li {
+      -webkit-backface-visibility: hidden;
+      display: none;
+      width: 75%;
+      margin: 0% auto;
+}
+
+.rslides li:first-child {
+      display: block;
+      margin: 0% auto;
+}
+
+.rslides img {
+      display: block;
+      max-width: 100%;
+      margin: 0% auto;
+}
+
 .indexmain #wrapper {
       width: 90%;
       margin: 0% auto;
@@ -100,30 +125,6 @@ footer p {
 }
 .indexmain #wrapper a:hover{
       background-color: rgba(0,0,0,1);
-}
-.rslides {
-      list-style: none;
-      overflow: hidden;
-      width: 75%;
-      margin: 0% auto;
-}
-
-.rslides li {
-      -webkit-backface-visibility: hidden;
-      display: none;
-      width: 75%;
-      margin: 0% auto;
-}
-
-.rslides li:first-child {
-      display: block;
-      margin: 0% auto;
-}
-
-.rslides img {
-      display: block;
-      max-width: 100%;
-      margin: 0% auto;
 }
 
 
