@@ -112,6 +112,8 @@ footer p {
       margin: 0% auto;
 }
 .indexmain #wrapper a {
+      position: absolute;
+      top: 85%;
       transform: translate(-50%, -50%);
       font-size: 18px;
       color: black;
@@ -120,7 +122,6 @@ footer p {
       border-radius: 10px;
       color: white;
       text-decoration: none;
-      margin-top: -5%;
 }
 .indexmain #wrapper a:hover{
       background-color: rgba(0,0,0,1);
