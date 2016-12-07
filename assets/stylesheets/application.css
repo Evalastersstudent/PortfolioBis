@@ -104,14 +104,14 @@ footer p {
 .rslides {
       list-style: none;
       overflow: hidden;
-      width: 100%;
+      width: 75%;
       margin: 0% auto;
 }
 
 .rslides li {
       -webkit-backface-visibility: hidden;
       display: none;
-      width: 100%;
+      width: 75%;
       margin: 0% auto;
 }
 
