@@ -107,6 +107,7 @@ footer p {
 }
 .indexmain #wrapper img {
       max-height: 400px;
+      max-width: 400px;
       border-radius: 10px;
       margin: 0% auto;
 }
