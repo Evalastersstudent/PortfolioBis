@@ -25,6 +25,14 @@ h1 a {
       text-decoration: none;
       color: white;
 }
+main {
+      text-align: center;
+      background-color: rgba(0,0,0,0.5);
+      padding: 2.5%;
+      border-radius: 10px;
+      width: 75%;
+      margin: 1.5% auto;
+}
 footer {
       text-align: center;
       background-color: rgba(0,0,0,0.5);
@@ -61,30 +69,23 @@ footer p {
 
 
 /*-----Index-----*/
-.indexmain .carousel {
-      width: 75%;
-      margin: 1.5% auto;
-      position: relative;
-      background-color: rgba(0,0,0,0.5);
-      padding: 2.5%;
-      border-radius: 10px;
-}
-.indexmain .carousel-cell {
-      height: 400px;
-      margin-right: 10px;
-      border-radius: 10px;
-}
-.indexmain .carousel-cell:before {
-      display: block;
+.indexmain #wrapper {
+      width: 90%;
+      margin: 0% auto;
       text-align: center;
-      border-radius: 10px;
 }
-.indexmain .carousel-cell img {
+.indexmain #wrapper ul li {
+      width: auto;
+      margin: 0px auto;
+      border-radius: 10px;
+      text-align: center;
+}
+.indexmain #wrapper img {
       max-height: 400px;
-      max-width: auto;
       border-radius: 10px;
+      margin: 0% auto;
 }
-.indexmain .carousel-cell a {
+.indexmain #wrapper a {
       position: absolute;
       top: 85%;
       left: 50%;
@@ -97,10 +98,33 @@ footer p {
       color: white;
       text-decoration: none;
 }
-.indexmain .carousel-cell a:hover{
+.indexmain #wrapper a:hover{
       background-color: rgba(0,0,0,1);
 }
+.rslides {
+      list-style: none;
+      overflow: hidden;
+      width: 100%;
+      margin: 0% auto;
+}
 
+.rslides li {
+      -webkit-backface-visibility: hidden;
+      display: none;
+      width: 100%;
+      margin: 0% auto;
+}
+
+.rslides li:first-child {
+      display: block;
+      margin: 0% auto;
+}
+
+.rslides img {
+      display: block;
+      max-width: 100%;
+      margin: 0% auto;
+}
 
 
 /*-----C4D-----*/
@@ -252,37 +276,3 @@ footer p {
 .websitemain .grid-item--width2 {
       width: 40.1%;
 }
-
-/*-----Responsive slide-----*/
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
-  
