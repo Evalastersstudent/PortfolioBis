@@ -130,7 +130,7 @@ footer p {
 
 /*-----C4D-----*/
 .c4dmain .grid {
-      width: 75%;
+      width: 100%;
       margin: 1% auto;
       background-color: rgba(0,0,0,0.5);
       padding: 1% 1% 0% 1%;
