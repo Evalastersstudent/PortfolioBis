@@ -81,7 +81,7 @@ footer p {
 .rslides li {
       -webkit-backface-visibility: hidden;
       display: none;
-      width: 75%;
+      width: 100%;
       margin: 0% auto;
 }
 
