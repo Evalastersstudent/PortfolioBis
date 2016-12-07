@@ -120,6 +120,7 @@ footer p {
       border-radius: 10px;
       color: white;
       text-decoration: none;
+      margin-top: -2.5%;
 }
 .indexmain #wrapper a:hover{
       background-color: rgba(0,0,0,1);
