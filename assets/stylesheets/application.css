@@ -90,7 +90,7 @@ footer p {
 
 .rslides img {
       display: block;
-      max-width: 100%;
+      max-width: 50%;
       margin: 0% auto;
 }
 
@@ -107,7 +107,6 @@ footer p {
 }
 .indexmain #wrapper img {
       max-height: 400px;
-      max-width: 400px;
       border-radius: 10px;
       margin: 0% auto;
 }
