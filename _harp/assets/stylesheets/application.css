@@ -53,6 +53,7 @@ footer .Contact li, footer .Contact li a {
       text-align: left;
       line-height: 1.4em;
       font-size: 1.45em;
+      border: orange 5px solid;
 }
 footer .Contact #SocialMedia li a img {
       width: 50%;
