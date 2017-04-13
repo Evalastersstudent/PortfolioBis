@@ -36,7 +36,7 @@ footer {
 footer .Contact {
       margin: 0 auto;
       clear: both;
-      padding: 0.5%;
+      padding: 0%;
       width: 80%;
       background-color: transparent;
       border: orange 5px solid;
@@ -45,6 +45,8 @@ footer .Contact {
 }
 footer .pure-1-2 {
       border: green 2.5px solid;
+      margin: 0%;
+      padding: 0%;
 }
 footer .Contact li {
       list-style: none;
