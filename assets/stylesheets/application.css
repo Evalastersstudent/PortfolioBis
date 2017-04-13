@@ -43,6 +43,9 @@ footer .Contact {
       font-family: 'Bad Script', cursive;
       letter-spacing: normal;
 }
+footer .pure-1-2 {
+      border: green 2.5px solid;
+}
 footer .Contact li {
       list-style: none;
       display: block;
