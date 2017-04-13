@@ -36,7 +36,7 @@ footer {
 }
 footer .KaderContact {
       width: 95%;
-      background-color: rgba(0,0,0,0.75);
+      background-color: transparent;
       margin: 2.5% auto;
       border-radius: 10px;
       clear: both;
