@@ -67,14 +67,13 @@ footer .Contact li a {
       font-size: 1.45em;
       margin: 0%;
       padding: 0%;
-      width: 0%;
+      border: orange 5px solid;
 }
 footer .Contact img {
       width: 50%;
       border-radius: 25%;
       display: inline-block;
       margin: 0%;
-      border: orange 5px solid;
 }
 footer p {
       color: white;
