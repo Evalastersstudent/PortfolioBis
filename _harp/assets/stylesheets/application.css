@@ -56,6 +56,8 @@ footer .Contact li {
       text-align: left;
       line-height: 1.4em;
       font-size: 1.45em;
+      margin: 0%;
+      padding: 0%;
 }
 footer .Contact li a {
       display: inline-block;
@@ -63,6 +65,8 @@ footer .Contact li a {
       text-align: left;
       line-height: 1.4em;
       font-size: 1.45em;
+      margin: 0%;
+      padding: 0%;
 }
 footer .Contact img {
       width: 50%;
