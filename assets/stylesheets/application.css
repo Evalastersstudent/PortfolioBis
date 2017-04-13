@@ -59,10 +59,11 @@ footer .Contact li a {
       font-size: 1.45em;
 }
 footer .Contact img {
-      width: 25%;
+      width: 50%;
       max-width: 100%;
       border-radius: 25%;
       display: inline-block;
+      margin: 0%;
 }
 footer .Contact #ContactForm li {
       margin-left: 0%;
