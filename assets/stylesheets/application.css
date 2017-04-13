@@ -43,9 +43,6 @@ footer .Contact {
       font-family: 'Bad Script', cursive;
       letter-spacing: normal;
 }
-footer .Contact #SocialMedia {
-      margin-right: 0%;
-}
 footer .Contact li, footer .Contact li a {
       list-style: none;
       display: block;
@@ -53,9 +50,8 @@ footer .Contact li, footer .Contact li a {
       text-align: left;
       line-height: 1.4em;
       font-size: 1.45em;
-      border: orange 5px solid;
 }
-footer .Contact #SocialMedia li a img {
+footer .Contact img {
       width: 50%;
       max-width: 100%;
       border-radius: 25%;
