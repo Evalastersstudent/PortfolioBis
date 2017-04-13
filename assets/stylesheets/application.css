@@ -67,6 +67,7 @@ footer .Contact li a {
       font-size: 1.45em;
       margin: 0%;
       padding: 0%;
+      width: auto;
 }
 footer .Contact img {
       width: 50%;
