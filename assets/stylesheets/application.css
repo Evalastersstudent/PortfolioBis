@@ -64,6 +64,7 @@ footer .Contact img {
       border-radius: 25%;
       display: inline-block;
       margin: 0%;
+      border: orange 5px solid;
 }
 footer .Contact #ContactForm li {
       margin-left: 0%;
