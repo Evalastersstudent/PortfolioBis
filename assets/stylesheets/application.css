@@ -68,8 +68,8 @@ footer .Contact #SocialMedia li a img {
 footer .Contact #ContactForm li {
       margin-left: 0%;
 }
-footer .Contact #ContactForm .email {
-      letter-spacing: 1.5em;
+footer .Contact #ContactForm li .email {
+      letter-spacing: 1.05em;
 }
 footer p {
       color: white;
