@@ -63,15 +63,12 @@ footer .Contact li a {
       display: inline-block;
       color: white;
       text-align: left;
-      line-height: 1.4em;
-      font-size: 1.45em;
       margin: 0%;
       padding: 0%;
       border: orange 5px solid;
 }
 footer .Contact img {
       width: 50%;
-      border-radius: 25%;
       display: inline-block;
       margin: 0%;
 }
