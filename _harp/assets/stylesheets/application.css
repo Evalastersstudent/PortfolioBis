@@ -67,6 +67,7 @@ footer .Contact #SocialMedia li a img {
 }
 footer .Contact #ContactForm li {
       margin-left: 0%;
+      line-height: 1.4em;
 }
 footer .Contact #ContactForm li .email {
       letter-spacing: 0.1em;
