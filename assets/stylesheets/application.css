@@ -3,7 +3,7 @@
 body {
       background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c2/c7/b6/c2c7b6dc1680e74656cae5223422dd9a.jpg");
       background-position: center;
-      background-repeat: no-repeat;
+      background-repeat: repeat-y;
       background-size: cover;
       background-attachment: fixed;
       font-family: 'Bad Script', cursive;
@@ -25,7 +25,6 @@ h1 a {
       text-decoration: none;
       color: white;
 }
-
 footer {
       text-align: center;
       background-color: rgba(0,0,0,0.5);
@@ -35,28 +34,85 @@ footer {
       margin: 1% auto;
       clear: both;
 }
+footer .KaderContact {
+      width: 95%;
+      background-color: rgba(0,0,0,0.75);
+      margin: 2.5% auto;
+      border-radius: 10px;
+      clear: both;
+}
+footer .Contact {
+      width: auto;
+      margin: 0 auto;
+      clear: both;
+      border: solid 1px rgba(0,0,0,0.01);
+      padding: 0.5%;
+}
+footer .Contact #SocialMedia {
+      float: left;
+      margin-right: 0%;
+}
+footer .Contact li, footer .Contact li a {
+      list-style: none;
+      display: block;
+      color: white;
+      text-align: left;
+      line-height: 1.4em;
+      font-size: 1.45em;
+}
+footer .Contact #SocialMedia li a img {
+      width: 50%;
+      max-width: 100%;
+      border-radius: 25%;
+}
+footer .Contact #ContactForm li {
+      margin-left: 0%;
+}
 footer p {
       color: white;
       line-height: 0;
 }
-@media only screen and (max-width: 420px) {
+footer .Copyright {
+      color: white;
+      line-height: 1.25em;
+      clear: both;
+}
+footer .Copyright a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+}
+@media only screen and (max-width: 1280px) {
       h1 {
             font-size: 4em;
       }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1040px) {
       h1 {
             font-size: 3em;
       }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 770px) {
+      .golfje {
+        display: none;
+      }
+}
+@media only screen and (max-width: 630px) {
+      h1 {
+            font-size: 2.5em;
+      }
+}
+@media only screen and (max-width: 540px) {
       h1 {
             font-size: 2em;
       }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
       h1 {
             font-size: 1em;
+      }
+      footer p {
+            font-size: 0.75em;
       }
 }
 
@@ -65,67 +121,208 @@ footer p {
 .indexmain {
       text-align: center;
       background-color: rgba(0,0,0,0.5);
-      padding: 2.5%;
+      padding: 2%;
       border-radius: 10px;
       width: 75%;
-      margin: 1.5% auto;
+      margin: 1.5% auto 0% auto;
 }
-
 .rslides {
+      position: relative;
       list-style: none;
       overflow: hidden;
-      width: 75%;
-      margin: 0% auto;
+      width: 50%;
+      padding: 0;
+      margin: 0;
 }
-
 .rslides li {
       -webkit-backface-visibility: hidden;
+      position: absolute;
       display: none;
       width: 100%;
-      margin: 0% auto;
+      left: 0;
+      top: 0;
 }
-
 .rslides li:first-child {
+      position: relative;
       display: block;
-      margin: 0% auto;
+      float: left;
 }
-
 .rslides img {
       display: block;
-      max-width: 100%;
-      margin: 0% auto;
+      height: auto;
+      float: left;
+      width: 100%;
+      border: 0;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+}
+#wrapper {
+      width: 70%;
+      margin: 0 auto;
+}
+#slider3 {
+      margin: 0 auto;
 }
 
-#wrapper {
-      width: 100%;
-      margin: 0% auto;
-      text-align: center;
-}
-.indexmain #wrapper ul li {
-      margin: 0px auto;
-      border-radius: 10px;
-      text-align: center;
-}
-.indexmain #wrapper img {
-      max-height: 400px;
-      border-radius: 10px;
-      margin: 0% auto;
-}
-.indexmain #wrapper a {
-      position: absolute;
-      top: 85%;
-      transform: translate(-50%, -50%);
+/*Tabs gaat over de navigatiefotos*/
+.rslides_tabs {
+      list-style: none;
+      padding: 0;
+      background: rgba(0,0,0,.25);
+      box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
+      -moz-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
+      -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
       font-size: 18px;
-      color: black;
-      padding: 2.5%;
-      background-color: rgba(0,0,0,0.75);
-      border-radius: 10px;
-      color: white;
+      list-style: none;
+      margin: 0 auto;
+      max-width: 50%;
+      padding: 10px 0;
+      text-align: center;
+      width: 100%;
+}
+.rslides_tabs li {
+      display: inline;
+      float: none;
+      margin-right: 1px;
+      border-radius: 25%;
+}
+.rslides_tabs a {
+      width: auto;
+      line-height: 20px;
+      padding: 9px 20px;
+      height: auto;
+      background: transparent;
+      display: inline;
+      border-radius: 25%;
+}
+.rslides_tabs img {
+      width: 25px;
+      height: 25px;
+      border-radius: 25%;
+}
+.rslides_tabs li:first-child {
+      margin-left: 0;
+}
+.rslides_tabs .rslides_here a {
+      background: rgba(255,255,255,.1);
+      color: #fff;
+      font-weight: bold;
+}
+
+/* tekst */
+.callbacks .caption {
+      display: block;
+      position: absolute;
+      z-index: 2;
+      font-size: 20px;
+      text-shadow: none;
+      color: #fff;
+      background: #000;
+      background: rgba(0,0,0,0.75);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 10px 20px;
+      margin: 0;
+      max-width: none;
+}
+.callbacks .caption:hover {
+      background: rgba(0,0,0,1);
+}
+.callbacks .caption a {
       text-decoration: none;
+      color: white;
 }
-.indexmain #wrapper a:hover{
-      background-color: rgba(0,0,0,1);
+
+/* linkerpijl (of pijlengroep) */
+.callbacks_nav {
+      position: absolute;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      top: 52%;
+      left: 0;
+      opacity: 0.7;
+      z-index: 3;
+      text-indent: -9999px;
+      overflow: hidden;
+      text-decoration: none;
+      height: 61px;
+      width: 38px;
+      background: transparent url("themes/themes.gif") no-repeat left top;
+      margin-top: -45px;
+      border: 0;
 }
+
+/* rechterpijl */
+.callbacks_nav.next {
+      left: auto;
+      background-position: right top;
+      right: 0;
+      border: 0;
+}
+
+#slider3-pager  {
+      padding-bottom: 0;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border: 0;
+}
+#slider3-pager a {
+      display: inline-block;
+}
+#slider3-pager img {
+      float: left;
+}
+#slider3-pager .rslides_here a {
+      background: transparent;
+      box-shadow: 0 0 0 2px #666;
+}
+#slider3-pager a {
+      padding: 0;
+}
+@media only screen and (max-width: 1100px) {
+      #wrapper {
+            width: 100%;
+      }
+      .indexmain {
+            padding: 3.5%;
+      }
+}
+@media only screen and (max-width: 900px) {
+      .rslides {
+            width: 70%;
+      }
+      .rslides_tabs {
+            max-width: 70%;
+      }
+      .indexmain {
+            padding: 5%;
+      }
+}
+@media only screen and (max-width: 770px) {
+      .rslides {
+            width: 85%;
+      }
+      .rslides_tabs {
+            max-width: 85%;
+      }
+      .indexmain {
+            padding: 7.5%;
+      }
+}
+@media only screen and (max-width: 630px) {
+      .rslides {
+            width: 100%;
+      }
+      .rslides_tabs {
+            max-width: 100%;
+      }
+}
+@media only screen and (max-width: 430px) {
+      .callbacks .caption {
+            padding: 2.5px;
+      }
+}
+
 
 
 /*-----C4D-----*/
@@ -229,18 +426,23 @@ footer p {
       clear: both;
 }
 .photoshopmain .grid-item {
-      width: 22.99%;
+      width: 26.75%;
       margin: 1%;
       border-radius: 10px;
-}
-.photoshopmain .grid-item {
       float: left;
+      clear: none;
       height: auto;
 }
 .photoshopmain .grid-item img {
       max-width: 100%;
       height: auto;
       border-radius: 10px;
+}
+.photoshopmain .grid-item--width2 {
+      width: 40.1%;
+}
+.photoshopmain .grid-item--height2 {
+      width: 22.9%;
 }
 
 
