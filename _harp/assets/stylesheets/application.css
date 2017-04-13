@@ -69,19 +69,11 @@ footer .Contact li a {
       padding: 0%;
 }
 footer .Contact img {
-      width: 50%;
       max-width: 100%;
       border-radius: 25%;
       display: inline-block;
       margin: 0%;
       border: orange 5px solid;
-}
-footer .Contact #ContactForm li {
-      margin-left: 0%;
-      line-height: 1.6em;
-}
-footer .Contact #ContactForm li .email {
-      letter-spacing: 0.05em;
 }
 footer p {
       color: white;
