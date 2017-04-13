@@ -70,6 +70,8 @@ footer .Contact li a {
 footer .Contact img {
       width: 50px;
       margin: 0%;
+      display: table-cell;
+      vertical-align: bottom;
 }
 footer p {
       color: white;
