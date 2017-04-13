@@ -65,9 +65,10 @@ footer .Contact li a {
       padding: 0%;
       border: orange 5px solid;
       display: inline-block;
+      width: 50px;
 }
 footer .Contact img {
-      width: 100px;
+      width: 50px;
       margin: 0%;
 }
 footer p {
