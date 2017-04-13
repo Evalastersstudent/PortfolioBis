@@ -69,7 +69,7 @@ footer .Contact li a {
       padding: 0%;
 }
 footer .Contact img {
-      max-width: 100%;
+      width: 50%;
       border-radius: 25%;
       display: inline-block;
       margin: 0%;
