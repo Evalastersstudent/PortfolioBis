@@ -33,14 +33,13 @@ footer {
       width: 75%;
       margin: 1% auto;
 }
-footer .KaderContact {
-      width: 80%;
-      background-color: transparent;
-}
 footer .Contact {
       margin: 0 auto;
       clear: both;
       padding: 0.5%;
+      width: 80%;
+      background-color: transparent;
+      border: orange 5px solid;
 }
 footer .Contact #SocialMedia {
       margin-right: 0%;
