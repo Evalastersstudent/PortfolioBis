@@ -43,9 +43,16 @@ footer .Contact {
       font-family: 'Bad Script', cursive;
       letter-spacing: normal;
 }
-footer .Contact li, footer .Contact li a {
+footer .Contact li {
       list-style: none;
       display: block;
+      color: white;
+      text-align: left;
+      line-height: 1.4em;
+      font-size: 1.45em;
+}
+footer .Contact li a {
+      display: inline-block;
       color: white;
       text-align: left;
       line-height: 1.4em;
@@ -55,7 +62,7 @@ footer .Contact img {
       width: 25%;
       max-width: 100%;
       border-radius: 25%;
-      display: inline;
+      display: inline-block;
 }
 footer .Contact #ContactForm li {
       margin-left: 0%;
