@@ -40,6 +40,8 @@ footer .Contact {
       width: 80%;
       background-color: transparent;
       border: orange 5px solid;
+      font-family: 'Bad Script', cursive;
+      letter-spacing: normal;
 }
 footer .Contact #SocialMedia {
       margin-right: 0%;
