@@ -47,6 +47,7 @@ footer .pure-1-2 {
       border: green 2.5px solid;
       margin: 0%;
       padding: 0%;
+      width: 50%;
 }
 footer .Contact li {
       list-style: none;
